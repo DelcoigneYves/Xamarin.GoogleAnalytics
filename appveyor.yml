@@ -1,9 +1,9 @@
 version: 1.0.0.{build}
 before_build:
-  - nuget restore Analytics.sln
+  - nuget restore src/Analytics.sln
 
 build:
-  project: Analytics.sln
+  project: src/Analytics.sln
   parallel: true
   verbosity: minimal
 assembly_info:
