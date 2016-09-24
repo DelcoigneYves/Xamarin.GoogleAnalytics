@@ -60,15 +60,8 @@ Task("Libraries").Does(()=>
     BuildAction(libraries);
 });
 
-Task("Samples")
-    .IsDependentOn("Libraries")
-    .Does(()=>
-{
-    BuildAction(samples);
-});
-
 Task ("NuGet")
-	.IsDependentOn ("Samples")
+	.IsDependentOn ("Libraries")
 	.Does (() =>
 {
     if(!DirectoryExists("./Build/nuget/"))
