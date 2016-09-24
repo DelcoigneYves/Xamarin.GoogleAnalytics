@@ -13,3 +13,10 @@ build_script:
 artifacts:
 - path: ./Build/nuget/*.nupkg
   name: NuGet
+
+xamarin:
+  email: yvesdelcoigne@gmail.com
+  password:
+    secure: LzQatXKmurJXkUbiOkwO9uDK/17QUVvVTejTFil8S2A=
+  android: true
+  ios: true
