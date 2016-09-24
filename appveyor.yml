@@ -1,6 +1,6 @@
 version: 1.0.0.{build}
 before_build:
-  - nuget restore
+  - nuget restore Analytics.sln
 
 build:
   project: Analytics.sln
