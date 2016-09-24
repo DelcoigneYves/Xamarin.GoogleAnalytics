@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytics.Droid", "Analytics.Droid\Analytics.Droid.csproj", "{905A0A69-F47A-44B0-89A6-A123BD96EAAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytics.iOS", "Analytics.iOS\Analytics.iOS.csproj", "{1E5FB621-2D9D-4475-8EEC-146081317C56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytics", "Analytics\Analytics.csproj", "{FA46545E-5568-49FC-9DCA-B17D3870EFF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{5F39C3C3-1CD0-4B06-9EEB-B4D765F17EC2}"
+	ProjectSection(SolutionItems) = preProject
+		..\nuget\Analytics.nuspec = ..\nuget\Analytics.nuspec
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytics.Abstractions", "Analytics.Abstractions\Analytics.Abstractions.csproj", "{7121AD48-EE3C-4D31-8C92-119DC92369AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{905A0A69-F47A-44B0-89A6-A123BD96EAAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905A0A69-F47A-44B0-89A6-A123BD96EAAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905A0A69-F47A-44B0-89A6-A123BD96EAAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905A0A69-F47A-44B0-89A6-A123BD96EAAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E5FB621-2D9D-4475-8EEC-146081317C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5FB621-2D9D-4475-8EEC-146081317C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5FB621-2D9D-4475-8EEC-146081317C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5FB621-2D9D-4475-8EEC-146081317C56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA46545E-5568-49FC-9DCA-B17D3870EFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA46545E-5568-49FC-9DCA-B17D3870EFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA46545E-5568-49FC-9DCA-B17D3870EFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA46545E-5568-49FC-9DCA-B17D3870EFF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7121AD48-EE3C-4D31-8C92-119DC92369AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7121AD48-EE3C-4D31-8C92-119DC92369AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7121AD48-EE3C-4D31-8C92-119DC92369AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7121AD48-EE3C-4D31-8C92-119DC92369AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
