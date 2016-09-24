@@ -59,11 +59,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Analytics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Xamarin.Analytics.1.0.0.3\lib\MonoAndroid10\Analytics.dll</HintPath>
+      <HintPath>..\..\packages\Xamarin.GoogleAnalytics.1.0.0.3\lib\MonoAndroid10\Analytics.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Analytics.Abstractions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Xamarin.Analytics.1.0.0.3\lib\MonoAndroid10\Analytics.Abstractions.dll</HintPath>
+      <HintPath>..\..\packages\Xamarin.GoogleAnalytics.1.0.0.3\lib\MonoAndroid10\Analytics.Abstractions.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="FormsViewGroup, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">

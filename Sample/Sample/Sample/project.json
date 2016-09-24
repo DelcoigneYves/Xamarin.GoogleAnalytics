@@ -4,8 +4,8 @@
     "Microsoft.NETCore.Portable.Compatibility": "1.0.1",
     "NETStandard.Library": "1.6.0",
     "System.ComponentModel": "4.0.1",
-    "Xamarin.Analytics": "1.0.0.2",
-    "Xamarin.Forms": "2.3.2.127"
+    "Xamarin.Forms": "2.3.2.127",
+    "Xamarin.GoogleAnalytics": "1.0.0.3"
   },
   "frameworks": {
     "netstandard1.4": {

@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Xamarin.Analytics</id>
+    <id>Xamarin.GoogleAnalytics</id>
     <version>1.0.0.3</version>
     <authors>Yves Delcoigne</authors>
     <owners>Yves Delcoigne</owners>
     <licenseUrl>https://github.com/DelcoigneYves/Xamarin.GoogleAnalytics/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/DelcoigneYves/Xamarin.GoogleAnalytics</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description>A small, light-weight library for using Google Analytics in Xamarin.Android and Xamarin.iOS. Only the very basic functionalities are implemented.</description>
+    <description>A small library for using Google Analytics in Xamarin.Android and Xamarin.iOS. Only the very basic functionalities are implemented.</description>
     <releaseNotes>First release</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>Google Analytics Xamarin Android iOS Forms</tags>

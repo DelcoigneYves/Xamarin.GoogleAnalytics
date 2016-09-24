@@ -118,11 +118,11 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Analytics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Xamarin.Analytics.1.0.0.2\lib\Xamarin.iOS10\Analytics.dll</HintPath>
+      <HintPath>..\..\packages\Xamarin.GoogleAnalytics.1.0.0.3\lib\Xamarin.iOS10\Analytics.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Analytics.Abstractions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Xamarin.Analytics.1.0.0.2\lib\Xamarin.iOS10\Analytics.Abstractions.dll</HintPath>
+      <HintPath>..\..\packages\Xamarin.GoogleAnalytics.1.0.0.3\lib\Xamarin.iOS10\Analytics.Abstractions.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Google.Analytics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
