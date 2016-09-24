@@ -7,6 +7,7 @@ The current version does not include all features of the Google Analytics librar
 ## How to use
 Check out the sample!
 
+```C#
 CrossAnalytics.Current.TrackerId = "XX-XXXXXXXX-X";
 CrossAnalytics.Current.EnableAdvertisingIdCollection(true);
 CrossAnalytics.Current.EnableAutoActivityTracking(false);
@@ -15,3 +16,4 @@ CrossAnalytics.Current.SetLocalDispatchPeriod(1);
 CrossAnalytics.Current.TrackScreen("home");
 CrossAnalytics.Current.TrackEvent("home", "click");
 CrossAnalytics.Current.SetCustomDimension(1, "something");
+```
