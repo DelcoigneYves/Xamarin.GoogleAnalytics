@@ -1,4 +1,11 @@
 version: 1.0.0
+before_build:
+  - nuget restore
+
+build:
+  project: Analytics.sln
+  parallel: true
+  verbosity: minimal
 assembly_info:
   patch: true
   file: '**\AssemblyInfo.*'
