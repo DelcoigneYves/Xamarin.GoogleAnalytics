@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Xamarin.GoogleAnalytics</id>
+    <version>1.0.0.3</version>
+    <authors>Yves Delcoigne</authors>
+    <owners>Yves Delcoigne</owners>
+    <licenseUrl>https://github.com/DelcoigneYves/Xamarin.GoogleAnalytics/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/DelcoigneYves/Xamarin.GoogleAnalytics</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>A small library for using Google Analytics in Xamarin.Android and Xamarin.iOS. Only the very basic functionalities are implemented.</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Google Analytics Xamarin Android iOS Forms</tags>
+    <dependencies>
+      <group targetFramework="MonoAndroid10">
+        <dependency id="Xamarin.GooglePlayServices.Analytics" version="29.0.0.2" />
+      </group>
+      <group targetFramework="Xamarin.iOS10">
+        <dependency id="Xamarin.Google.iOS.Analytics" version="3.14.0.8" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\src\Analytics\bin\Release\Analytics.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Analytics.dll" />
+    <file src="..\src\Analytics\bin\Release\Analytics.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Analytics.pdb" />
+    <file src="..\src\Analytics.Abstractions\bin\Release\Analytics.Abstractions.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Analytics.Abstractions.dll" />
+    <file src="..\src\Analytics.Abstractions\bin\Release\Analytics.Abstractions.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Analytics.Abstractions.pdb" />
+    
+    <!--Xamarin.Android-->
+    <file src="..\src\Analytics.Droid\bin\Release\Analytics.dll" target="lib\MonoAndroid10\Analytics.dll" />
+    <file src="..\src\Analytics.Droid\bin\Release\Analytics.pdb" target="lib\MonoAndroid10\Analytics.pdb" />
+    <file src="..\src\Analytics.Abstractions\bin\Release\Analytics.Abstractions.dll" target="lib\MonoAndroid10\Analytics.Abstractions.dll" />
+    <file src="..\src\Analytics.Abstractions\bin\Release\Analytics.Abstractions.pdb" target="lib\MonoAndroid10\Analytics.Abstractions.pdb" />
+
+    <!--Xamarin.iOS Unified-->
+    <file src="..\src\Analytics.iOS\bin\Release\Analytics.dll" target="lib\Xamarin.iOS10\Analytics.dll" />
+    <file src="..\src\Analytics.Abstractions\bin\Release\Analytics.Abstractions.dll" target="lib\Xamarin.iOS10\Analytics.Abstractions.dll" />
+  </files>
+</package>
