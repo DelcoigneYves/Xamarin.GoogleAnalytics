@@ -6,7 +6,7 @@ namespace Analytics
 {
     public class CrossAnalytics
     {
-        private static Lazy<IGaService> Implementation = new Lazy<IGaService>(CreateAnalytics,
+        private static readonly Lazy<IGaService> Implementation = new Lazy<IGaService>(CreateTestPlugin,
             LazyThreadSafetyMode.PublicationOnly);
 
         /// <summary>
@@ -25,9 +25,13 @@ namespace Analytics
             }
         }
 
-        private static IGaService CreateAnalytics()
+        private static IGaService CreateTestPlugin()
         {
+#if PORTABLE
             return null;
+#else
+            return new GaService();
+#endif
         }
 
         internal static Exception NotImplementedInReferenceAssembly()
